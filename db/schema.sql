@@ -17,6 +17,4 @@ CREATE TABLE burgers (
 	PRIMARY KEY ( id )
 );
 
-INSERT INTO burgers (burger_name, name, role, age, forcePoints) VALUES ('blah', 'Alvaro', 'dude', '23', '1222');
-
-SELECT * FROM allcharacters;
+SELECT * FROM burgers;
