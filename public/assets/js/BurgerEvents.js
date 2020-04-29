@@ -1,20 +1,23 @@
+// AJAX MAKES A CALL TO AN API ENDPOING WHICH IS ANOTHER WEBPAGE
+// BUT USER DOESNT HAVE TO SEE IT...
+
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function () {
     $(".change-devoured").on("click", function (event) {
         var id = $(this).data("id");
-        var newSleep = $(this).data("newsleep");
+        var newDevoured = $(this).data("newsleep");
 
-        var newSleepState = {
-            sleepy: newSleep
+        var newDevouredState = {
+            devoured: newDevoured
         };
 
         // Send the PUT request.
         $.ajax("/api/burgers/" + id, {
             type: "PUT",
-            data: newSleepState
+            data: newDevouredState
         }).then(
             function () {
-                console.log("changed devoured to", newSleep);
+                console.log("changed devoured to", newDevoured);
                 // Reload the page to get the updated list
                 location.reload();
             }
