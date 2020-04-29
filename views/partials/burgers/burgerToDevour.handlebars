@@ -1,7 +1,14 @@
 <li>
-    {{!-- variable in table --}}
-    {{burger_name}}
-    <button class="change-devoured" data-id="{{id}}" data-newsleep="{{devoured}}">
-        Devour It!
-    </button>
+    <div class="row">
+        <div class="col-md-6">
+            {{!-- variable in table --}}
+            {{burger_name}}
+        </div>
+
+        <div class="col-md-6">
+            <button class="change-devoured" data-id="{{id}}" data-newsleep="{{devoured}}">
+                Devour It!
+            </button>
+        </div>
+    </div>
 </li>
