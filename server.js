@@ -3,6 +3,7 @@
 // config -> contains files for connecting to mysql DB                                                                               //
 // controllers -> contains files for creating website routes...need better way to describe this (api-routes.js in previous examples) //
 // db -> the .sql database files                                                                                                     //
+// models -> another DB thing?                                                                                                       //   
 // public -> run of mill css style sheets and additional media assets                                                                //
 // views -> contains html (handlebars) templates that data gets displayed on                                                         //
 //                                                                                                                                   //
