@@ -21,7 +21,7 @@
         {{!--             --}}
         {{!-- left column --}}
         {{!--             --}}
-        <div class="col-md-4 text-center leftColumn">
+        <div class="col-md-4 leftColumn">
             <h1>Menu</h1>
 
             {{!-- draw burgers from DB --}}
@@ -41,18 +41,23 @@
         {{!--               --}}
         {{!-- middle column --}}
         {{!--               --}}
-        <div class="col-md-4 middleColumn">
+        <div class="col-md-4 middleColumn text-center">
+            <br>
+            <br>
             <form class="create-form">
                 <div class="form-group">
                     <input type="text" id="inputBox" name="name">
                 </div>
-                <div>
+                <div class="text-center">
                     <label for="inputBox">Enter a burger you want to eat click the Submit button</label>
                 </div>
-                <div>
+                <div class="text-center">
                     <button type="submit">Submit</button>
                 </div>
             </form>
+
+            <br>
+            <br>
 
             {{!-- relative paths assume direct from public folder! --}}
             <img class="text-center" src="assets/img/explodedBurger.png" alt="">

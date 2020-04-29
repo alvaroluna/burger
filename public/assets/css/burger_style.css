@@ -1,8 +1,14 @@
 body {
     background: lightblue;
+    font-family: "Karla", sans-serif;
 }
 
 .greyText {
     color: grey;
     text-decoration: line-through;
+}
+
+#inputBox {
+    width: 100%;
+    padding: 30px;
 }
