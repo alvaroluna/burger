@@ -1,14 +1,13 @@
-# Eat-Da-Burger
-UNC Coding Boot Camp - Eat-Da-Burger - Assignment #12 (Node, Express, Handlebars)
+# Mmm Good Burger
+UCB Coding Boot Camp - Mmm Good Burger - Assignment #14 (Node, Express, Handlebars)
  <p></p>
  
-**Project Description** - Eat-Da-Burger is a full-stack web application that ??.
+**Project Description** - Mmm Good Burger is a full-stack web application. The user types into the text box the name of a burger they would like to devour. Once submitted, the burger is written to the database and appears in the left column. The user can then click on the devoured button in order to switch the burger over to the right. In the database, the devoured boolean is switched from true to false which signals the app to perform the transfer.
 
 ## Application Heroku Link
 The link below will give you direct access to Eat-Da-Burger web application using your web browser via the Heroku web service. (NOTE: There will be a momentary delay when first accessing the Heroku servers.)
 
-<!-- Heroku References: https://evening-ridge-94356.herokuapp.com/ | https://git.heroku.com/evening-ridge-94356.git -->
-* [Mmm Good Burger](https://uncbc-eatdaburger.herokuapp.com/)
+* [Mmm Good Burger](https://ancient-hollows-80474.herokuapp.com/)
 
 ## Local Environment Setup
 To use Mmm Good Burger web application application from your local environment, you must accomplish the following steps below:
@@ -33,9 +32,7 @@ node server.js
 ## Technology used
 - node.js - [https://nodejs.org/en/](https://nodejs.org/en/)
 - heroku-cli NPM Package - [https://www.npmjs.com/package/heroku-cli](https://www.npmjs.com/package/heroku-cli)
-- body-parser NPM Package - [https://www.npmjs.com/package/body-parser](https://www.npmjs.com/package/body-parser)
 - express NPM Package - [https://www.npmjs.com/package/express](https://www.npmjs.com/package/express)
-- path NPM Package - [https://www.npmjs.com/package/path](https://www.npmjs.com/package/path)
 
 ## Author
 
